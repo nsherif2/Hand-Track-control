@@ -1,4 +1,5 @@
-#Hand Gesture-Controlled System for Volume, Brightness, and Screenshots
+Hand Gesture-Controlled System for Volume, Brightness, and Screenshots
+
 This project is a real-time hand gesture recognition system that uses a webcam to track hand movements and control various computer functions such as system volume, screen brightness, minimizing windows, and taking screenshots. The program is built using OpenCV, Mediapipe, and several other libraries for interacting with system audio, screen brightness, and automation tasks.
 
 Features
@@ -35,18 +36,18 @@ comtypes
 You can install these dependencies using the following pip command:
 
 bash
-Copy code
+
 pip install opencv-python mediapipe numpy pycaw screen-brightness-control pyautogui comtypes
 Clone the Repository
+
 bash
-Copy code
-git clone https://github.com/yourusername/hand-gesture-control.git
-cd hand-gesture-control
+git clone https://github.com/nsherif2/Hand-Track-control.git
+cd hand-track-control
 Running the Program
 After installing the dependencies, you can run the program using:
 
 bash
-Copy code
+
 python main.py
 How It Works
 Webcam Input: The program uses the computer's webcam to capture video frames, which are processed in real-time to detect hand gestures.
